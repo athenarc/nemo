@@ -1,0 +1,23 @@
+<rdf:Description rdf:about="http://dcu.gr/ontologies/scholarlyontology/scheme/">
+<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dc:title xml:lang="en">NeMO Activity Types</dc:title>
+    <dc:description xml:lang="en">Taxonomy of Activity Types to classify scholarly practices, as part of NeMO ontology.</dc:description>
+    <dc:creator>Vayianos Pertsas</dc:creator>
+    <dc:creator>Panos Constantopulos</dc:creator>
+    <dct:license>https://creativecommons.org/licenses/by/4.0/</dct:license>
+    <dc:subject xml:lang="en">scholarly practices</dc:subject>
+    <dc:relation rdf:resource="http://nemo.dcu.gr/"/>
+    <dc:relation rdf:resource="https://github.com/athenarc/nemo"/>
+    <dc:language>English</dc:language>
+    <dc:format>application/rdf+xml</dc:format>
+    <skos:hasTopConcept rdf:resource="nemo-instances:ActivityType-Aquiring"/>
+    <skos:hasTopConcept rdf:resource="nemo-instances:ActivityType-Communicating"/>
+    <skos:hasTopConcept rdf:resource="nemo-instances:ActivityType-Conceiving"/>
+    <skos:hasTopConcept rdf:resource="nemo-instances:ActivityType-Processing"/>
+    <skos:hasTopConcept rdf:resource="nemo-instances:ActivityType-Seeking"/>
+
+    <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-08-01</dct:created>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-11-01</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-03-01</dct:issued>
+    <dct:hasVersion>1.3</dct:hasVersion>
+</rdf:Description>
